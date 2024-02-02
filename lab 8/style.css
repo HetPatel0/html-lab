@@ -1,0 +1,110 @@
+.header1 {
+    height: 70px;
+    width: 600px;
+    background-color: red;
+    font: 100;
+    color: white;
+    font: bold;
+    float: left;
+    margin-left: 450px;
+    margin-bottom: 8px;
+    border: 1px black solid;
+    
+
+
+}
+.blackup{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 7px;
+}
+.navi{
+    height: 450px;
+    width: 150px;
+    background-color: blue;
+    color: whitesmoke;
+    float: left;
+    margin-left: 450px;
+    border: 1px black solid;
+}
+.con{
+    height: 450px;
+    width: 300px;
+    background-color: yellow;
+    color: black;
+    float: left;
+    margin-left: 10px;
+    border-right: 1px solid black;
+    border-left: 1px solid black ;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+    
+    
+}
+.gbar {
+    height: 450px;
+    width: 130px;
+    float: left;
+    
+    
+    
+
+}
+.up{
+    height: 300px;
+    width:130px;
+    background-color: green;
+    color: white;
+    margin-left: 10px;
+    border: 1px black solid;
+    margin-bottom: 10px;
+  
+}
+.down{
+    height: 138px;
+    width: 140px;
+    background-color: yellow;
+    margin-left: -2px;
+    border-left: 3px yellow solid;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    
+
+}
+.foot{
+    height: 70px;
+    width: 600px;
+    background-color: rgb(0, 170, 255);
+    font: 100;
+    color: white;
+    font: bold;
+    float: left;
+    margin-left: 450px;
+    margin-bottom: 8px;
+    border: 1px black solid;
+    margin-top: 10px;
+
+}
+.blackbottom{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    margin-top: 7px;
+    float: left;
+}
+.text{
+    width: 200px;
+    height: ;
+    
+    background-color: white;
+
+}
+
+          
+        
+        
+        
+    
+    
