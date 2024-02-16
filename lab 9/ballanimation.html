@@ -22,8 +22,9 @@
     top: 33vh;
     border-radius: 60px;
     background-color: yellow;
-    animation-name: bal1;
+    animation-name: ball1;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 
 }
 .ball2{
@@ -34,8 +35,9 @@
     top: 33vh;
     border-radius: 100px;
     background-color: blue;
-    animation-name: bal3;
+    animation-name: ball2;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 
 }
 .ball3{
@@ -46,26 +48,35 @@
     top: 33vh;
     border-radius: 60px;
     background-color: red;
-    animation-name: bal3;
+    animation-name: ball3;
     animation-duration: 10s;
+    animation-iteration-count: infinite;
 
 }
-@keyframes bal1 {
-    0%{left: 10px;top:33vh;}
-    33%{left:30%;top:33vh}
-    66%{left:60%;top:30vh}
-    
-}
-@keyframes bal1=2 {
+@keyframes ball1 {
     0%{left: 10px;top:33vh}
-    33%{left:30%;top:33vh}
-    66%{left:60%;top:30vh}
+    25%{left:30%;top:33vh}
+    50%{left:56%;top:30vh}
+    75%{left:30%;top:30vh}
+    100%{left:10px;top:33vh}
+
     
 }
-@keyframes bal3 {
-    0%{left: 10px;top:33vh;} 
-    33%{left:30%;top:33vh}
-    66%{left:60%;top:30vh}
+@keyframes ball2{
+    0%{left: 10px;top:33vh}
+    25%{left:30%;top:33vh}
+    50%{left:56%;top:30vh}
+    75%{left:30%;top:1.2vh}
+    100%{left:10px;top:33vh}
+    
+}
+@keyframes ball3 {
+    0%{left: 10px;top:33vh} 
+    25%{left:30%;top:33vh}
+    50%{left:56%;top:30vh}
+    75%{left:30%;top:63.35vh}
+    100%{left:10px;top:33vh}
+
 }
 
 </style>
