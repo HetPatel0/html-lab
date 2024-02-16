@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    div{
+        height: 300px;
+        width: 300px;
+        animation-name: box;
+        animation-duration: 20s;
+        background-color: red;
+        position: absolute;
+        animation-delay:2s ;
+        animation-iteration-count:infinite ;
+        animation-direction: alternate ;
+        animation-timing-function : linear  ;
+    }
+    @keyframes box{
+        from {
+            background-color: red;
+        }
+        to{
+            background-color: yellow;
+        }
+    }
+    @keyframes box {
+        0%{left: 0;top:0%;}
+        25%{left: 80%; top:0%;}
+        50%{left:80%; top:60%;}
+        75%{left:0%;top:60%;}
+        100%{left:0%;top:0%}
+    }
+</style>
+<body>
+    <div>
+        
+    </div>
+</body>
+</html>

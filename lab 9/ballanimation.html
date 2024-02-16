@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+
+.bg{
+    height: 70vh;
+    width:60%;
+    background-color: black;
+    border-radius:40px ;
+
+}
+.ball1{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 10px;
+    top: 33vh;
+    border-radius: 60px;
+    background-color: yellow;
+    animation-name: bal1;
+    animation-duration: 10s;
+
+}
+.ball2{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 10px;
+    top: 33vh;
+    border-radius: 100px;
+    background-color: blue;
+    animation-name: bal3;
+    animation-duration: 10s;
+
+}
+.ball3{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 10px;
+    top: 33vh;
+    border-radius: 60px;
+    background-color: red;
+    animation-name: bal3;
+    animation-duration: 10s;
+
+}
+@keyframes bal1 {
+    0%{left: 10px;top:33vh;}
+    33%{left:30%;top:33vh}
+    66%{left:60%;top:30vh}
+    
+}
+@keyframes bal1=2 {
+    0%{left: 10px;top:33vh}
+    33%{left:30%;top:33vh}
+    66%{left:60%;top:30vh}
+    
+}
+@keyframes bal3 {
+    0%{left: 10px;top:33vh;} 
+    33%{left:30%;top:33vh}
+    66%{left:60%;top:30vh}
+}
+
+</style>
+<body>
+    <div class="bg">
+        <div class="ball1"></div>
+        <div class="ball2"></div>
+        <div class="ball3"></div>
+    </div>
+</body>
+</html>
